@@ -1,0 +1,12 @@
+{
+  "name": "playwright-ffmpeg-bug",
+  "version": "1.0.0",
+  "description": "Minimum reproduction of Playwright ffmpeg orphan process bug with mobile emulation",
+  "scripts": {
+    "reproduce": "node reproduce.js",
+    "check": "node check.js"
+  },
+  "dependencies": {
+    "playwright": "1.58.2"
+  }
+}
